@@ -1,4 +1,4 @@
->
+div>
           <h4>The 7-Year Covenant</h4>
           <p>Mahdi concludes a peace treaty with the "Romans" (Christian West) through a Jewish intermediary. Period of relative peace and expansion.</p>
         </div>
@@ -222,4 +222,4 @@
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:16px">
         <div>
-          <p style="color:var(--gold);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;margin-bottom:10px">âœ“ A
+          <p style="color:var(--gold);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;margin-bottom:10px">âœ
