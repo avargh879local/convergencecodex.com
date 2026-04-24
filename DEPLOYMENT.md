@@ -35,7 +35,7 @@ In Cloudflare:
 
 ```text
 Production branch: main
-Build command: exit 0
+Build command: bash build.sh
 Build output directory: public
 ```
 

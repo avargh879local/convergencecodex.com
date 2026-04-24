@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Convergence Codex — Al-Mahdi & The Antichrist</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #c9a84c;
+    --gold-light: #e8cc7a;
+    --gold-dim: #8a6d2f;
+    --obsidian: #0d0d0f;
+    --deep: #111218;
+    --mid: #1a1b24;
+    --surface: #20222e;
+    --border: #2a2d3e;
+    --text: #d4cfc6;
+    --text-dim: #888299;
+    --islamic-green: #2d6e4e;
+    --islamic-green-light: #4aab7a;
+    --biblical-blue: #1e3a6b;
+    --biblical-blue-light: #4a7cc7;
+    --secular-purple: #4a1e6b;
+    --secular-purple-light: #9a4acc;
+    --danger: #c94c4c;
+    --agree: #4cc97a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--obsidian);
+    color: var(--text);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* ── HERO ─────────────────────────────── */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 40px;
+    position: relative;
+    background:
+      radial-gradient(ellipse at 30% 50%, rgba(201,168,76,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse at 70% 50%, rgba(201,168,76,0.04) 0%, transparent 60%),
+      linear-gradient(180deg, #0d0d0f 0%, #111218 100%);
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 80px, rgba(201,168,76,0.03) 80px, rgba(201,168,76,0.03) 81px),
+      repeating-linear-gradient(90deg, transparent, transparent 80px, rgba(201,168,76,0.03) 80px, rgba(201,168,76,0.03) 81px);
+    pointer-events: none;
+  }
+
+  .hero-emblem {
+    font-size: 80px;
+    margin-bottom: 30px;
+    animation: pulse 4s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.8; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.05); }
+  }
+
+  .hero h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(28px, 5vw, 64px);
+    font-weight: 900;
+    color: var(--gold);
+    letter-spacing: 4px;
+    line-height: 1.2;
+    text-shadow: 0 0 60px rgba(201,168,76,0.3);
+    margin-bottom: 16px;
+  }
+
+  .hero-sub {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(16px, 2vw, 22px);
+    color: var(--text-dim);
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+
+  .thesis-box {
+    max-width: 700px;
+    border: 1px solid var(--gold-dim);
+    padding: 28px 36px;
+    background: rgba(201,168,76,0.05);
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  .thesis-box::before {
+    content: 'CENTRAL THESIS';
+    position: absolute;
+    top: -12px;
+    left: 30px;
+    background: var(--obsidian);
+    padding: 0 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 3px;
+  }
+
+  .thesis-box p {
+    font-size: 18px;
+    font-style: italic;
+    color: var(--text);
+  }
+
+  .nav-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .nav-pill {
+    padding: 10px 24px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-dim);
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+  }
+
+  .nav-pill:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: rgba(201,168,76,0.08);
+  }
+
+  /* ── SECTION LAYOUT ────────────────────── */
+  section {
+    padding: 80px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .section-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .section-header h2 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(22px, 3vw, 40px);
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  .section-header p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--text-dim);
+    font-style: italic;
+  }
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+    margin: 80px 0;
+  }
+
+  /* ── VERSE TABLES ──────────────────────── */
+  .verse-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 900px) {
+    .verse-grid { grid-template-columns: 1fr; }
+    .three-cols { grid-template-columns: 1fr !important; }
+  }
+
+  .verse-column {
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .verse-col-header {
+    padding: 20px 24px;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .verse-col-header.islamic {
+    background: rgba(45, 110, 78, 0.25);
+    border-bottom: 2px solid var(--islamic-green);
+    color: var(--islamic-green-light);
+  }
+
+  .verse-col-header.biblical {
+    background: rgba(30, 58, 107, 0.25);
+    border-bottom: 2px solid var(--biblical-blue);
+    color: var(--biblical-blue-light);
+  }
+
+  .verse-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+
+  .verse-table th {
+    background: var(--surface);
+    padding: 12px 16px;
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .verse-table td {
+    padding: 16px;
+    border-bottom: 1px solid rgba(42,45,62,0.5);
+    vertical-align: top;
+    line-height: 1.6;
+  }
+
+  .verse-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .verse-table tr:hover td {
+    background: rgba(201,168,76,0.03);
+  }
+
+  .verse-ref {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--gold-dim);
+    display: block;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+  }
+
+  .verse-arabic {
+    font-size: 18px;
+    color: var(--islamic-green-light);
+    direction: rtl;
+    line-height: 1.8;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  /* ── COMPARISON TABLE ──────────────────── */
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .compare-table th {
+    padding: 16px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid var(--border);
+  }
+
+  .compare-table th:nth-child(1) { color: var(--text-dim); }
+  .compare-table th:nth-child(2) { color: var(--islamic-green-light); background: rgba(45,110,78,0.1); }
+  .compare-table th:nth-child(3) { color: var(--biblical-blue-light); background: rgba(30,58,107,0.1); }
+  .compare-table th:nth-child(4) { color: var(--gold); background: rgba(201,168,76,0.07); }
+
+  .compare-table td {
+    padding: 16px 20px;
+    border-bottom: 1px solid rgba(42,45,62,0.4);
+    vertical-align: top;
+  }
+
+  .compare-table td:nth-child(2) { background: rgba(45,110,78,0.04); }
+  .compare-table td:nth-child(3) { background: rgba(30,58,107,0.04); }
+  .compare-table td:nth-child(4) { background: rgba(201,168,76,0.04); }
+
+  .compare-table tr:hover td { filter: brightness(1.2); }
+
+  .trait-label {
+    font-weight: 600;
+    color: var(--gold-light);
+    font-size: 14px;
+  }
+
+  .match-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-top: 6px;
+  }
+
+  .match-strong { background: rgba(76,201,122,0.15); color: var(--agree); border: 1px solid rgba(76,201,122,0.3); }
+  .match-partial { background: rgba(201,168,76,0.15); color: var(--gold); border: 1px solid rgba(201,168,76,0.3); }
+  .match-inverse { background: rgba(201,76,76,0.15); color: var(--danger); border: 1px solid rgba(201,76,76,0.3); }
+
+  /* ── THREE LENS ANALYSIS ───────────────── */
+  .three-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin-top: 40px;
+  }
+
+  .lens-card {
+    border: 1px solid var(--border);
+    padding: 30px;
+    position: relative;
+  }
+
+  .lens-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+  }
+
+  .lens-card.theologian::before { background: var(--biblical-blue-light); }
+  .lens-card.islamic-scholar::before { background: var(--islamic-green-light); }
+  .lens-card.secular::before { background: var(--secular-purple-light); }
+
+  .lens-icon { font-size: 32px; margin-bottom: 12px; }
+
+  .lens-card h3 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+
+  .lens-card.theologian h3 { color: var(--biblical-blue-light); }
+  .lens-card.islamic-scholar h3 { color: var(--islamic-green-light); }
+  .lens-card.secular h3 { color: var(--secular-purple-light); }
+
+  .lens-card p {
+    font-size: 15px;
+    color: var(--text-dim);
+    line-height: 1.8;
+    margin-bottom: 12px;
+  }
+
+  .verdict-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+  }
+
+  .verdict-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── CONCLUSION ────────────────────────── */
+  .conclusion-box {
+    border: 1px solid var(--gold-dim);
+    padding: 50px;
+    position: relative;
+    background: radial-gradient(ellipse at center, rgba(201,168,76,0.05) 0%, transparent 70%);
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .conclusion-box h3 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(18px, 2.5vw, 30px);
+    color: var(--gold);
+    margin-bottom: 24px;
+  }
+
+  .conclusion-box p {
+    max-width: 800px;
+    margin: 0 auto 16px;
+    font-size: 17px;
+    line-height: 1.9;
+  }
+
+  .score-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 40px 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .score-card {
+    padding: 20px;
+    border: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .score-num {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .score-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+  }
+
+  /* ── AGENT DEBATE LOG ──────────────────── */
+  .debate-log {
+    border: 1px solid var(--border);
+    background: var(--deep);
+    padding: 0;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+
+  .debate-header {
+    background: var(--surface);
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--agree);
+    animation: blink 2s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .debate-entry {
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(42,45,62,0.4);
+  }
+
+  .agent-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .agent-label.claude { color: #8ab4f8; }
+  .agent-label.grok { color: #f08c4b; }
+  .agent-label.agreed { color: var(--agree); }
+
+  .debate-entry p { font-size: 15px; line-height: 1.7; }
+
+  /* ── TIMELINE ──────────────────────────── */
+  .timeline {
+    position: relative;
+    padding-left: 40px;
+    margin-top: 40px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(180deg, var(--gold-dim), transparent);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -44px;
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 2px solid var(--gold);
+    background: var(--obsidian);
+  }
+
+  .timeline-event {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--gold-dim);
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+  }
+
+  .timeline-item h4 {
+    font-size: 17px;
+    color: var(--gold-light);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .timeline-item p {
+    font-size: 15px;
+    color: var(--text-dim);
+  }
+
+  /* ── REFERENCES ────────────────────────── */
+  .ref-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 30px;
+  }
+
+  .ref-card {
+    border: 1px solid var(--border);
+    padding: 18px;
+    font-size: 14px;
+  }
+
+  .ref-type {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .ref-card h5 {
+    color: var(--text);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .ref-card p { color: var(--text-dim); font-style: italic; }
+
+  /* ── STICKY NAV ────────────────────────── */
+  .sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(13,13,15,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  }
+
+  .sticky-nav.visible { transform: translateY(0); }
+
+  .sticky-nav .brand {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 12px;
+    color: var(--gold);
+    letter-spacing: 2px;
+    flex-shrink: 0;
+  }
+
+  .sticky-nav a {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+    white-space: nowrap;
+  }
+
+  .sticky-nav a:hover { color: var(--gold); }
+
+  /* ── CALLOUT ───────────────────────────── */
+  .callout {
+    border-left: 3px solid var(--gold);
+    padding: 16px 20px;
+    background: rgba(201,168,76,0.05);
+    margin: 24px 0;
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .warning-callout {
+    border-left: 3px solid var(--danger);
+    padding: 16px 20px;
+    background: rgba(201,76,76,0.05);
+    margin: 24px 0;
+    font-size: 15px;
+  }
+
+  .warning-callout strong { color: var(--danger); }
+
+  /* Update log */
+  .update-log {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    padding: 12px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    margin-bottom: 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 60px 40px;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  footer .footer-note {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    margin-top: 10px;
+    color: rgba(136,130,153,0.5);
+    letter-spacing: 2px;
+  }
+</style>
+</head>
+<body>
+
+<!-- STICKY NAV -->
+<nav class="sticky-nav" id="stickyNav">
+  <span class="brand">THE CONVERGENCE CODEX</span>
+  <a href="#verses">Scriptures</a>
+  <a href="#comparison">Comparison</a>
+  <a href="#timeline">Timeline</a>
+  <a href="#three-lenses">Three Lenses</a>
+  <a href="#debate">Agent Debate</a>
+  <a href="#conclusion">Conclusion</a>
+  <a href="#references">References</a>
+  <a href="#elijah-dajjal">Elijah-Dajjal?</a>
+  <a href="#hidden-treasures">Hidden Treasures</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-emblem">☽✦☩</div>
+  <h1>The Convergence Codex</h1>
+  <div class="hero-sub">Al-Mahdi &nbsp;·&nbsp; The Antichrist &nbsp;·&nbsp; A Comparative Eschatological Study</div>
+
+  <div class="thesis-box">
+    <p>Are Islam's awaited deliverer and Christianity's end-times nemesis the same figure — seen through opposite theological lenses? This study examines every major scriptural reference, scholarly analysis, and theological argument to pursue that question with intellectual honesty.</p>
+  </div>
+
+  <nav class="nav-pills">
+    <a href="#verses" class="nav-pill">📜 All Scriptures</a>
+    <a href="#comparison" class="nav-pill">⚖️ Trait Comparison</a>
+    <a href="#timeline" class="nav-pill">📅 Prophetic Timeline</a>
+    <a href="#three-lenses" class="nav-pill">🔭 Three Lenses</a>
+    <a href="#debate" class="nav-pill">🤖 Agent Debate</a>
+    <a href="#conclusion" class="nav-pill">⚡ Conclusion</a>
+  </nav>
+</div>
+
+<!-- ── SECTION 1: ALL SCRIPTURES ─────────────────── -->
+<section id="verses">
+  <div class="section-header">
+    <span class="section-tag">§ I — Scriptural Foundation</span>
+    <h2>The Source Texts</h2>
+    <p>Every major verse from Quran, Hadith, and Bible pertaining to Al-Mahdi, Al-Dajjal, and the Antichrist. Primary sources only — the raw material of the inquiry.</p>
+  </div>
+
+  <!-- Islamic Sources -->
+  <h3 style="font-family:'Cinzel Decorative',serif; color:var(--islamic-green-light); font-size:18px; margin-bottom:24px; padding-bottom:12px; border-bottom:1px solid var(--border);">
+    ☽ Islamic Sources — Al-Mahdi
+  </h3>
+
+  <div class="verse-grid">
+    <div class="verse-column">
+      <div class="verse-col-header islamic">HADITH — Sunni Tradition</div>
+      <table class="verse-table">
+        <thead><tr><th>Source</th><th>Narration</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Abu Dawud 4283</span>
+              <em style="font-size:13px;color:var(--text-dim)">Narrated by Abu Sa'id al-Khudri</em>
+            </td>
+            <td>
+              "Al-Mahdi is from me. He has a broad forehead and a prominent nose. He will fill the earth with justice and fairness as it was filled with oppression and tyranny. He will rule for seven years."
+              <span class="match-badge match-strong">AUTHENTIC</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Abu Dawud / Ibn Majah</span>
+              <em style="font-size:13px;color:var(--text-dim)">Narrated by Umm Salamah</em>
+            </td>
+            <td>
+              "The Mahdi is from my family, from the descendants of Fatimah."
+              <span class="match-badge match-strong">AUTHENTICATED by Al-Albani</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Musnad Ahmad / Sunan Tirmidhi</span>
+              <em style="font-size:13px;color:var(--text-dim)">Narrated by Ali ibn Abi Talib</em>
+            </td>
+            <td>
+              "If there remains but one day in the world, Allah will send a man from my family whose name matches my name and whose father's name matches my father's name. He will fill the earth with equity and justice as it had been filled with injustice."
+              <span class="match-badge match-partial">HASAN</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sahih Muslim 2897</span>
+              <em style="font-size:13px;color:var(--text-dim)">Abu Huraira</em>
+            </td>
+            <td>
+              "How will you be when the Son of Mary descends among you and your imam (leader) is from among you?" — indicating Isa will pray behind the Mahdi, confirming the Mahdi's authority even over Jesus in Islamic eschatology.
+              <span class="match-badge match-strong">SAHIH</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Ibn Majah 4084</span>
+              <em style="font-size:13px;color:var(--text-dim)">Abu Sa'id al-Khudri</em>
+            </td>
+            <td>
+              "The Mahdi will emerge from my nation. Allah will cause him to arise suddenly. He will rule for seven, eight, or nine years." — Note the variance in duration across narrations.
+              <span class="match-badge match-partial">HASAN</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Nuaym ibn Hammad — Kitab al-Fitan</span>
+            </td>
+            <td>
+              The Mahdi will make a 7-year peace covenant with the Romans (Christians/West) through a Jewish intermediary. He will then conquer Constantinople and Rome. He will fill the earth with the rule of Islam.
+              <span class="match-badge match-partial">WEAK — but widely cited</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Abu Dawud 4286</span>
+            </td>
+            <td>
+              "The world will not pass away until a man from the people of my house rules over the Arabs. His name will be the same as mine." — further reinforcing the name Muhammad ibn Abdullah.
+              <span class="match-badge match-strong">AUTHENTIC</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Al-Tabarani / Kitab al-Fitan</span>
+            </td>
+            <td>
+              "The black banners will come from the East... among them will be the Mahdi, the Caliph of Allah." — the black flag hadith associated with Khurasan (modern Afghanistan/Iran region).
+              <span class="match-badge match-inverse">DISPUTED — often misused</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="verse-column">
+      <div class="verse-col-header islamic">QURAN — Indirectly Referenced Verses</div>
+      <table class="verse-table">
+        <thead><tr><th>Verse</th><th>Relevance</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="verse-ref">Quran 24:55 (An-Nur)</span>
+              <span class="verse-arabic">وَعَدَ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَعَمِلُوا الصَّالِحَاتِ لَيَسْتَخْلِفَنَّهُمْ فِي الْأَرْضِ</span>
+            </td>
+            <td>
+              "Allah has promised those who believed among you and did righteous deeds that He will surely grant them succession (khilafah) upon the earth..." — cited by scholars as the Quranic basis for a promised righteous Caliphate, sometimes linked to the Mahdi's rule.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Quran 21:1

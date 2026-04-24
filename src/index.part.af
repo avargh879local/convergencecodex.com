@@ -1,0 +1,72 @@
+s is one event in two scriptures</td>
+        </tr>
+        <tr>
+          <td><span class="trait-label">Dome of the Rock inscriptions</span></td>
+          <td>Matthew 24:15, Daniel 9:27</td>
+          <td>Historical — Caliph Abd al-Malik 691 CE</td>
+          <td><span class="match-badge match-partial">STRONG</span></td>
+          <td>Anti-Christ inscriptions permanently placed on the Temple Mount — first Christian patriarch called it the Abomination</td>
+        </tr>
+        <tr>
+          <td><span class="trait-label">Changing Times & Laws</span></td>
+          <td>Daniel 7:25</td>
+          <td>Islamic calendar (Hijri) + Sharia replacing all prior law codes</td>
+          <td><span class="match-badge match-strong">STRONG</span></td>
+          <td>No civilization in history more literally "changed the set times and laws" than the Islamic conquests</td>
+        </tr>
+        <tr>
+          <td><span class="trait-label">Competing Forehead Marks</span></td>
+          <td>Ezek 9:4, Rev 7:3, Rev 13:16</td>
+          <td>Quran 48:29 — zebibah (prayer mark)</td>
+          <td><span class="match-badge match-partial">SPECULATIVE</span></td>
+          <td>Both God's seal and Beast's mark on foreheads — same location as Islamic prostration mark</td>
+        </tr>
+        <tr>
+          <td><span class="trait-label">The Fatal Wound Healed</span></td>
+          <td>Revelation 13:3</td>
+          <td>Ottoman Caliphate abolished 1924 — revived Caliphate = healing</td>
+          <td><span class="match-badge match-partial">MODERATE</span></td>
+          <td>The 1924 abolition was described as Islam's "death blow" — Mahdi reviving it fits Rev 13:3 precisely</td>
+        </tr>
+        <tr>
+          <td><span class="trait-label">Psalm 83 Coalition</span></td>
+          <td>Psalm 83:1-8</td>
+          <td>All 8 named nations are today Muslim-majority and hostile to Israel</td>
+          <td><span class="match-badge match-strong">STUNNING</span></td>
+          <td>Written 3,000 years before Islam — every named enemy of Israel is today a Muslim nation</td>
+        </tr>
+        <tr>
+          <td><span class="trait-label">313 vs 300 — Small Remnant</span></td>
+          <td>Judges 7 (300), Rev 7 (144,000)</td>
+          <td>Mahdi's 313 core supporters (= Battle of Badr)</td>
+          <td><span class="match-badge match-partial">NOTABLE</span></td>
+          <td>Same theological pattern: God wins through a specific small faithful number against overwhelming odds</td>
+        </tr>
+        <tr>
+          <td><span class="trait-label">Solar Signs of the End</span></td>
+          <td>Matthew 24:29, Joel 2:31, Rev 6:12</td>
+          <td>Sahih Muslim 2941 — sun rises from the west</td>
+          <td><span class="match-badge match-partial">INTRIGUING</span></td>
+          <td>Both traditions: unprecedented solar disruption is a Major Sign immediately before final judgment</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+<footer>
+  <p>The Convergence Codex — A Living Research Document</p>
+  <p style="margin-top:8px; font-size:15px; color:var(--text-dim)">This study is updated as research progresses. All conclusions are provisional. Truth-seeking demands intellectual humility.</p>
+  <div class="footer-note">BUILT BY CLAUDE · RESEARCH ONGOING · GROK DEBATE PENDING · V1.0</div>
+</footer>
+
+<script>
+  // Sticky nav on scroll
+  const nav = document.getElementById('stickyNav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('visible', window.scrollY > 400);
+  });
+</script>
+
+</body>
+</html>

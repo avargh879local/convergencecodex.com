@@ -28,7 +28,7 @@ fi
 echo
 echo "Cloudflare Pages settings:"
 echo "  Production branch: main"
-echo "  Build command: exit 0"
+echo "  Build command: bash build.sh"
 echo "  Build output directory: public"
 echo "  Root directory: /"
 echo
