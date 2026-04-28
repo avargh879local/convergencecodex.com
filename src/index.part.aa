@@ -267,6 +267,10 @@
     border-bottom: 1px solid rgba(42,45,62,0.55);
   }
 
+  .role-row.heading {
+    background: rgba(32,34,46,0.7);
+  }
+
   .role-row:last-child { border-bottom: none; }
 
   .role-cell {
@@ -284,6 +288,15 @@
     letter-spacing: 2px;
     color: var(--gold-light);
     text-transform: uppercase;
+  }
+
+  .role-cell.heading {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--text);
+    text-transform: uppercase;
+    background: rgba(201,168,76,0.04);
   }
 
   .role-cell.biblical { color: var(--biblical-blue-light); background: rgba(30,58,107,0.05); }
@@ -852,16 +865,13 @@
 
   <div class="role-map">
     <div class="role-map-header">How the Comparison Works</div>
+    <div class="role-row heading">
+      <div class="role-cell heading">Role in the drama</div>
+      <div class="role-cell heading">Biblical / Christian terms</div>
+      <div class="role-cell heading">Islamic terms</div>
+      <div class="role-cell heading">Why this site compares them</div>
+    </div>
     <div class="role-row">
       <div class="role-cell label">Political ruler</div>
-      <div class="role-cell biblical">Biblical Antichrist / Beast</div>
-      <div class="role-cell islamic">Al-Mahdi</div>
-      <div class="role-cell note">The central thesis asks whether the Islamic hero and Biblical villain occupy the same structural role when viewed through opposite theological lenses.</div>
-    </div>
-    <div class="role-row">
-      <div class="role-cell label">Deceiver figure</div>
-      <div class="role-cell biblical">Antichrist, False Prophet, or false messiahs depending on passage</div>
-      <div class="role-cell islamic">Dajjal</div>
-      <div class="role-cell note">Dajjal clearly shares some Antichrist traits, especially deception and signs. The debate is whether he maps better to the Antichrist, the False Prophet, or a rival end-time interpretation.</div>
-    </div>
-    <div class="rol
+      <div class="role-cell biblical">Antichrist / Beast. This idea comes from the Bible and later Christian interpretation of Daniel, 2 Thessalonians, 1 John, and Revelation.</div>
+      <div class="role-cell islamic">Al-Mahdi. This figure comes 
