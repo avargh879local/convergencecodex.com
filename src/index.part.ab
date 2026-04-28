@@ -1,4 +1,142 @@
-rse-arabic">وَلَقَدْ كَتَبْنَا فِي الزَّبُورِ مِن بَعْدِ الذِّكْرِ أَنَّ الْأَرْضَ يَرِثُهَا عِبَادِيَ الصَّالِحُونَ</span>
+e-row">
+      <div class="role-cell label">Endorsing figure</div>
+      <div class="role-cell biblical">False Prophet endorses the Beast</div>
+      <div class="role-cell islamic">Isa descends and validates the Muslim community led by the Mahdi</div>
+      <div class="role-cell note">This is one of the sharpest comparison points: both narratives include a powerful religious figure whose actions validate the final ruling order, but the theological meanings are completely opposite.</div>
+    </div>
+    <div class="role-row">
+      <div class="role-cell label">Final conflict</div>
+      <div class="role-cell biblical">Christ defeats the Beast and False Prophet</div>
+      <div class="role-cell islamic">Isa kills Dajjal; Mahdi/Islamic order is vindicated</div>
+      <div class="role-cell note">The study tracks whether these are separate prophecies, borrowed apocalyptic motifs, or mirror-image descriptions of the same future conflict.</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    Read this site as a research map, not a verdict first. The goal is to gather the strongest Biblical, Islamic, and secular arguments, compare them honestly, and keep updating the conclusions as better sources are added.
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── SECTION 1: ALL SCRIPTURES ─────────────────── -->
+<section id="verses">
+  <div class="section-header">
+    <span class="section-tag">§ I — Scriptural Foundation</span>
+    <h2>The Source Texts</h2>
+    <p>Every major verse from Quran, Hadith, and Bible pertaining to Al-Mahdi, Al-Dajjal, and the Antichrist. Primary sources only — the raw material of the inquiry.</p>
+  </div>
+
+  <!-- Islamic Sources -->
+  <h3 style="font-family:'Cinzel Decorative',serif; color:var(--islamic-green-light); font-size:18px; margin-bottom:24px; padding-bottom:12px; border-bottom:1px solid var(--border);">
+    ☽ Islamic Sources — Al-Mahdi
+  </h3>
+
+  <div class="verse-grid">
+    <div class="verse-column">
+      <div class="verse-col-header islamic">HADITH — Sunni Tradition</div>
+      <table class="verse-table">
+        <thead><tr><th>Source</th><th>Narration</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Abu Dawud 4283</span>
+              <em style="font-size:13px;color:var(--text-dim)">Narrated by Abu Sa'id al-Khudri</em>
+            </td>
+            <td>
+              "Al-Mahdi is from me. He has a broad forehead and a prominent nose. He will fill the earth with justice and fairness as it was filled with oppression and tyranny. He will rule for seven years."
+              <span class="match-badge match-strong">AUTHENTIC</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Abu Dawud / Ibn Majah</span>
+              <em style="font-size:13px;color:var(--text-dim)">Narrated by Umm Salamah</em>
+            </td>
+            <td>
+              "The Mahdi is from my family, from the descendants of Fatimah."
+              <span class="match-badge match-strong">AUTHENTICATED by Al-Albani</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Musnad Ahmad / Sunan Tirmidhi</span>
+              <em style="font-size:13px;color:var(--text-dim)">Narrated by Ali ibn Abi Talib</em>
+            </td>
+            <td>
+              "If there remains but one day in the world, Allah will send a man from my family whose name matches my name and whose father's name matches my father's name. He will fill the earth with equity and justice as it had been filled with injustice."
+              <span class="match-badge match-partial">HASAN</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sahih Muslim 2897</span>
+              <em style="font-size:13px;color:var(--text-dim)">Abu Huraira</em>
+            </td>
+            <td>
+              "How will you be when the Son of Mary descends among you and your imam (leader) is from among you?" — indicating Isa will pray behind the Mahdi, confirming the Mahdi's authority even over Jesus in Islamic eschatology.
+              <span class="match-badge match-strong">SAHIH</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Ibn Majah 4084</span>
+              <em style="font-size:13px;color:var(--text-dim)">Abu Sa'id al-Khudri</em>
+            </td>
+            <td>
+              "The Mahdi will emerge from my nation. Allah will cause him to arise suddenly. He will rule for seven, eight, or nine years." — Note the variance in duration across narrations.
+              <span class="match-badge match-partial">HASAN</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Nuaym ibn Hammad — Kitab al-Fitan</span>
+            </td>
+            <td>
+              The Mahdi will make a 7-year peace covenant with the Romans (Christians/West) through a Jewish intermediary. He will then conquer Constantinople and Rome. He will fill the earth with the rule of Islam.
+              <span class="match-badge match-partial">WEAK — but widely cited</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Sunan Abu Dawud 4286</span>
+            </td>
+            <td>
+              "The world will not pass away until a man from the people of my house rules over the Arabs. His name will be the same as mine." — further reinforcing the name Muhammad ibn Abdullah.
+              <span class="match-badge match-strong">AUTHENTIC</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Al-Tabarani / Kitab al-Fitan</span>
+            </td>
+            <td>
+              "The black banners will come from the East... among them will be the Mahdi, the Caliph of Allah." — the black flag hadith associated with Khurasan (modern Afghanistan/Iran region).
+              <span class="match-badge match-inverse">DISPUTED — often misused</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="verse-column">
+      <div class="verse-col-header islamic">QURAN — Indirectly Referenced Verses</div>
+      <table class="verse-table">
+        <thead><tr><th>Verse</th><th>Relevance</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="verse-ref">Quran 24:55 (An-Nur)</span>
+              <span class="verse-arabic">وَعَدَ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَعَمِلُوا الصَّالِحَاتِ لَيَسْتَخْلِفَنَّهُمْ فِي الْأَرْضِ</span>
+            </td>
+            <td>
+              "Allah has promised those who believed among you and did righteous deeds that He will surely grant them succession (khilafah) upon the earth..." — cited by scholars as the Quranic basis for a promised righteous Caliphate, sometimes linked to the Mahdi's rule.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="verse-ref">Quran 21:105 (Al-Anbiya)</span>
+              <span class="verse-arabic">وَلَقَدْ كَتَبْنَا فِي الزَّبُورِ مِن بَعْدِ الذِّكْرِ أَنَّ الْأَرْضَ يَرِثُهَا عِبَادِيَ الصَّالِحُونَ</span>
             </td>
             <td>
               "And indeed We have written in the Psalms after the reminder that the land (earth) shall be inherited by My righteous servants." — used to theologically ground the Mahdi's global just rule.
@@ -234,96 +372,4 @@ rse-arabic">وَلَقَدْ كَتَبْنَا فِي الزَّبُورِ مِ
         <td><span class="trait-label">Relation to Jesus</span></td>
         <td>Jesus (Isa) descends from heaven and prays <em>behind</em> the Mahdi, affirming his leadership. Mahdi is Jesus' political/military commander.</td>
         <td>The False Prophet (Revelation 13:11-14) comes like a lamb (Christ-like appearance), endorses and empowers the Antichrist, directs worship toward him.</td>
-        <td><span class="match-badge match-partial">PARTIAL — INVERTED</span><br><small style="color:var(--text-dim)">Islamic Isa = Biblical False Prophet; Islamic Mahdi = Biblical Antichrist</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">White Horse</span></td>
-        <td>Some narrations describe the Mahdi riding a white horse during his conquests and final battles.</td>
-        <td>Revelation 6:2 — Antichrist rides a white horse. Note: Christ also rides a white horse in Revelation 19 — the deceptive parallel is deliberate.</td>
-        <td><span class="match-badge match-strong">NOTABLE MATCH</span><br><small style="color:var(--text-dim)">White horse imagery appears in both as symbol of messianic authority</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">Jerusalem</span></td>
-        <td>Mahdi will conquer Jerusalem. The final confrontation with Dajjal occurs at the Gate of Ludd (near Tel Aviv, Israel). Mahdi rules from Jerusalem.</td>
-        <td>Antichrist sets up the "abomination of desolation" in Jerusalem's Temple (Matthew 24:15, Daniel 11:45). Armageddon and final battle centered on Israel/Jerusalem.</td>
-        <td><span class="match-badge match-strong">STRONG MATCH</span><br><small style="color:var(--text-dim)">Both converge on Jerusalem as the eschatological capital</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">Self-Deification</span></td>
-        <td>The Mahdi does NOT claim to be God — this is a major difference. He is a human Caliph under Allah. He leads people to worship Allah.</td>
-        <td>The Antichrist explicitly claims to be God: "He sets himself up in God's temple, proclaiming himself to be God" — 2 Thessalonians 2:4.</td>
-        <td><span class="match-badge match-inverse">SIGNIFICANT DIVERGENCE</span><br><small style="color:var(--text-dim)">Mahdi does not self-deify — Islam is strictly monotheist</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">Supernatural Powers / Miracles</span></td>
-        <td>Mainstream hadith do not generally attribute supernatural miracles to the Mahdi himself (that role belongs to Dajjal and Isa). He is a military/political leader guided by Allah.</td>
-        <td>"The coming of the lawless one is by the activity of Satan with all power and false signs and wonders" — 2 Thessalonians 2:9. The Antichrist performs miracles empowered by Satan.</td>
-        <td><span class="match-badge match-partial">PARTIAL MATCH</span><br><small style="color:var(--text-dim)">Miraculous power attributed differently within both frameworks</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">Origin / Lineage</span></td>
-        <td>Descendant of Muhammad through Fatimah. Name: Muhammad ibn Abdullah. From among the Muslims — an insider, not an outsider.</td>
-        <td>Origin debated: from Roman Empire (Daniel 7), possibly "prince of Rome" or from a revived empire. Irenaeus suggested tribe of Dan. Likely a Westerner (traditional view) or Middle Easterner (Richardson's view).</td>
-        <td><span class="match-badge match-partial">DEBATED</span><br><small style="color:var(--text-dim)">Richardson argues Ottoman/Islamic origin; traditionalists say Roman/Western</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">Attitude Toward Jews/Israel</span></td>
-        <td>Various hadith: the Mahdi will fight against and defeat enemies of Islam. Some narrations mention confrontation with Jewish forces near Jerusalem. Trees and stones cry out against Jews hiding behind them.</td>
-        <td>Antichrist initially makes a covenant with Israel (Daniel 9:27) then turns against them, persecuting them in the last 3.5 years. God intervenes to save a remnant of Israel.</td>
-        <td><span class="match-badge match-partial">COMPLEX MATCH</span><br><small style="color:var(--text-dim)">Both end in confrontation with Israel — but different dynamics</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">How He Ends</span></td>
-        <td>The Mahdi dies (as a human) — some narrations suggest he prays, is killed, or dies naturally after his reign. His death is not dramatized in most narrations.</td>
-        <td>The Antichrist is cast alive into the lake of fire at Christ's return — Revelation 19:20. He is destroyed, not by human power (Daniel 8:25).</td>
-        <td><span class="match-badge match-inverse">DIVERGENCE</span><br><small style="color:var(--text-dim)">Mahdi dies normally; Antichrist has supernatural judgment</small></td>
-      </tr>
-      <tr>
-        <td><span class="trait-label">The Figure Who Kills Dajjal/AC</span></td>
-        <td>Jesus (Isa) kills the Dajjal. Mahdi assists alongside Jesus.</td>
-        <td>Jesus Christ returns and destroys the Antichrist by the breath of his mouth — 2 Thessalonians 2:8, Revelation 19:15-21.</td>
-        <td><span class="match-badge match-strong">MATCH</span><br><small style="color:var(--text-dim)">Both traditions: Jesus defeats the primary enemy. The IDENTITY of that enemy is what differs.</small></td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- ── SECTION 3: PROPHETIC TIMELINE ──────────────── -->
-<section id="timeline">
-  <div class="section-header">
-    <span class="section-tag">§ III — Prophetic Sequence</span>
-    <h2>The End-Times Timeline</h2>
-    <p>How the events unfold — side by side in Islamic and Biblical eschatology. The parallels in sequence are as striking as the parallels in character.</p>
-  </div>
-
-  <div class="verse-grid">
-    <div>
-      <h4 style="color:var(--islamic-green-light); font-family:'Cinzel Decorative',serif; font-size:14px; letter-spacing:2px; margin-bottom:20px;">☽ ISLAMIC SEQUENCE</h4>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-event">SIGN 1 — PRE-EMERGENCE</div>
-          <h4>Great Fitna & Moral Collapse</h4>
-          <p>The world descends into unprecedented injustice, war, and moral corruption. Muslims are oppressed. Three great armies fight over a treasure in the East.</p>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-event">SIGN 2</div>
-          <h4>The Sufyani Rises</h4>
-          <p>A tyrant from the lineage of Abu Sufyan emerges in Syria, spreading bloodshed and chaos — considered a harbinger of the Mahdi.</p>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-event">SIGN 3</div>
-          <h4>The Heavenly Cry (Sarkha)</h4>
-          <p>A divine announcement heard worldwide, calling people to follow the Mahdi. An army of the Sufyani is swallowed by the earth while marching toward Mecca.</p>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-event">SIGN 4 — EMERGENCE</div>
-          <h4>Mahdi Appears at Ka'bah</h4>
-          <p>Near the Black Stone in Mecca on the 10th of Muharram. 313 core supporters (like Badr) pledge allegiance. Initially reluctant. Becomes Caliph of the entire Muslim world.</p>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-event">SIGN 5</div>
-          <h4>The 7-Year Covenant</h4>
-          <p>Mahdi conc
+     

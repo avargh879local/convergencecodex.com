@@ -194,6 +194,109 @@
     margin: 80px 0;
   }
 
+  /* ── BEGINNER ORIENTATION ──────────────── */
+  .orientation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-top: 40px;
+  }
+
+  .orientation-card {
+    border: 1px solid var(--border);
+    padding: 30px;
+    background: rgba(32,34,46,0.45);
+    position: relative;
+  }
+
+  .orientation-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+  }
+
+  .orientation-card.biblical::before { background: var(--biblical-blue-light); }
+  .orientation-card.islamic::before { background: var(--islamic-green-light); }
+
+  .orientation-card h3 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+  }
+
+  .orientation-card.biblical h3 { color: var(--biblical-blue-light); }
+  .orientation-card.islamic h3 { color: var(--islamic-green-light); }
+
+  .orientation-card p {
+    color: var(--text-dim);
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 14px;
+  }
+
+  .orientation-card strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .role-map {
+    margin-top: 36px;
+    border: 1px solid var(--border);
+    background: rgba(13,13,15,0.35);
+    overflow: hidden;
+  }
+
+  .role-map-header {
+    padding: 16px 20px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+
+  .role-row {
+    display: grid;
+    grid-template-columns: minmax(150px, 0.8fr) minmax(220px, 1.2fr) minmax(220px, 1.2fr) minmax(220px, 1.4fr);
+    border-bottom: 1px solid rgba(42,45,62,0.55);
+  }
+
+  .role-row:last-child { border-bottom: none; }
+
+  .role-cell {
+    padding: 18px 20px;
+    font-size: 15px;
+    line-height: 1.65;
+    border-right: 1px solid rgba(42,45,62,0.55);
+  }
+
+  .role-cell:last-child { border-right: none; }
+
+  .role-cell.label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--gold-light);
+    text-transform: uppercase;
+  }
+
+  .role-cell.biblical { color: var(--biblical-blue-light); background: rgba(30,58,107,0.05); }
+  .role-cell.islamic { color: var(--islamic-green-light); background: rgba(45,110,78,0.05); }
+  .role-cell.note { color: var(--text-dim); }
+
+  @media (max-width: 900px) {
+    .orientation-grid { grid-template-columns: 1fr; }
+    .role-row { grid-template-columns: 1fr; }
+    .role-cell { border-right: none; border-bottom: 1px solid rgba(42,45,62,0.35); }
+    .role-cell:last-child { border-bottom: none; }
+  }
+
   /* ── VERSE TABLES ──────────────────────── */
   .verse-grid {
     display: grid;
@@ -691,6 +794,7 @@
 <!-- STICKY NAV -->
 <nav class="sticky-nav" id="stickyNav">
   <span class="brand">THE CONVERGENCE CODEX</span>
+  <a href="#beginner-map">Beginner Map</a>
   <a href="#verses">Scriptures</a>
   <a href="#comparison">Comparison</a>
   <a href="#timeline">Timeline</a>
@@ -712,6 +816,7 @@
   </div>
 
   <nav class="nav-pills">
+    <a href="#beginner-map" class="nav-pill">🧭 Beginner Map</a>
     <a href="#verses" class="nav-pill">📜 All Scriptures</a>
     <a href="#comparison" class="nav-pill">⚖️ Trait Comparison</a>
     <a href="#timeline" class="nav-pill">📅 Prophetic Timeline</a>
@@ -721,121 +826,42 @@
   </nav>
 </div>
 
-<!-- ── SECTION 1: ALL SCRIPTURES ─────────────────── -->
-<section id="verses">
+<!-- ── START HERE: BEGINNER MAP ─────────────────── -->
+<section id="beginner-map">
   <div class="section-header">
-    <span class="section-tag">§ I — Scriptural Foundation</span>
-    <h2>The Source Texts</h2>
-    <p>Every major verse from Quran, Hadith, and Bible pertaining to Al-Mahdi, Al-Dajjal, and the Antichrist. Primary sources only — the raw material of the inquiry.</p>
+    <span class="section-tag">Start Here — What This Page Is Doing</span>
+    <h2>A Beginner Map of the End-Time Cast</h2>
+    <p>This page compares Islamic and Biblical end-times expectations side by side. It does not begin by assuming the figures are the same; it asks whether opposite traditions may be describing overlapping actors, events, or symbolic patterns.</p>
   </div>
 
-  <!-- Islamic Sources -->
-  <h3 style="font-family:'Cinzel Decorative',serif; color:var(--islamic-green-light); font-size:18px; margin-bottom:24px; padding-bottom:12px; border-bottom:1px solid var(--border);">
-    ☽ Islamic Sources — Al-Mahdi
-  </h3>
-
-  <div class="verse-grid">
-    <div class="verse-column">
-      <div class="verse-col-header islamic">HADITH — Sunni Tradition</div>
-      <table class="verse-table">
-        <thead><tr><th>Source</th><th>Narration</th></tr></thead>
-        <tbody>
-          <tr>
-            <td>
-              <span class="verse-ref">Sunan Abu Dawud 4283</span>
-              <em style="font-size:13px;color:var(--text-dim)">Narrated by Abu Sa'id al-Khudri</em>
-            </td>
-            <td>
-              "Al-Mahdi is from me. He has a broad forehead and a prominent nose. He will fill the earth with justice and fairness as it was filled with oppression and tyranny. He will rule for seven years."
-              <span class="match-badge match-strong">AUTHENTIC</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Sunan Abu Dawud / Ibn Majah</span>
-              <em style="font-size:13px;color:var(--text-dim)">Narrated by Umm Salamah</em>
-            </td>
-            <td>
-              "The Mahdi is from my family, from the descendants of Fatimah."
-              <span class="match-badge match-strong">AUTHENTICATED by Al-Albani</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Musnad Ahmad / Sunan Tirmidhi</span>
-              <em style="font-size:13px;color:var(--text-dim)">Narrated by Ali ibn Abi Talib</em>
-            </td>
-            <td>
-              "If there remains but one day in the world, Allah will send a man from my family whose name matches my name and whose father's name matches my father's name. He will fill the earth with equity and justice as it had been filled with injustice."
-              <span class="match-badge match-partial">HASAN</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Sahih Muslim 2897</span>
-              <em style="font-size:13px;color:var(--text-dim)">Abu Huraira</em>
-            </td>
-            <td>
-              "How will you be when the Son of Mary descends among you and your imam (leader) is from among you?" — indicating Isa will pray behind the Mahdi, confirming the Mahdi's authority even over Jesus in Islamic eschatology.
-              <span class="match-badge match-strong">SAHIH</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Sunan Ibn Majah 4084</span>
-              <em style="font-size:13px;color:var(--text-dim)">Abu Sa'id al-Khudri</em>
-            </td>
-            <td>
-              "The Mahdi will emerge from my nation. Allah will cause him to arise suddenly. He will rule for seven, eight, or nine years." — Note the variance in duration across narrations.
-              <span class="match-badge match-partial">HASAN</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Nuaym ibn Hammad — Kitab al-Fitan</span>
-            </td>
-            <td>
-              The Mahdi will make a 7-year peace covenant with the Romans (Christians/West) through a Jewish intermediary. He will then conquer Constantinople and Rome. He will fill the earth with the rule of Islam.
-              <span class="match-badge match-partial">WEAK — but widely cited</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Sunan Abu Dawud 4286</span>
-            </td>
-            <td>
-              "The world will not pass away until a man from the people of my house rules over the Arabs. His name will be the same as mine." — further reinforcing the name Muhammad ibn Abdullah.
-              <span class="match-badge match-strong">AUTHENTIC</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Al-Tabarani / Kitab al-Fitan</span>
-            </td>
-            <td>
-              "The black banners will come from the East... among them will be the Mahdi, the Caliph of Allah." — the black flag hadith associated with Khurasan (modern Afghanistan/Iran region).
-              <span class="match-badge match-inverse">DISPUTED — often misused</span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+  <div class="orientation-grid">
+    <div class="orientation-card biblical">
+      <h3>✝ Biblical Lens</h3>
+      <p><strong>The Antichrist</strong>, often linked with the Beast of Revelation and the "man of lawlessness" in 2 Thessalonians, is portrayed as an end-time ruler who opposes God, deceives nations, persecutes the saints, and receives political authority.</p>
+      <p><strong>The False Prophet</strong> is a second deceptive figure in Revelation 13. His role is religious and propagandistic: he performs signs, points people toward the Beast, and helps enforce allegiance to the Beast system.</p>
+      <p><strong>The returning Christ</strong> defeats the Beast and False Prophet in Revelation 19. In many Christian readings, Elijah or the Two Witnesses also appear in the final drama as prophetic witnesses before judgment.</p>
     </div>
 
-    <div class="verse-column">
-      <div class="verse-col-header islamic">QURAN — Indirectly Referenced Verses</div>
-      <table class="verse-table">
-        <thead><tr><th>Verse</th><th>Relevance</th></tr></thead>
-        <tbody>
-          <tr>
-            <td>
-              <span class="verse-ref">Quran 24:55 (An-Nur)</span>
-              <span class="verse-arabic">وَعَدَ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَعَمِلُوا الصَّالِحَاتِ لَيَسْتَخْلِفَنَّهُمْ فِي الْأَرْضِ</span>
-            </td>
-            <td>
-              "Allah has promised those who believed among you and did righteous deeds that He will surely grant them succession (khilafah) upon the earth..." — cited by scholars as the Quranic basis for a promised righteous Caliphate, sometimes linked to the Mahdi's rule.
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span class="verse-ref">Quran 21:105 (Al-Anbiya)</span>
-              <span class="ve
+    <div class="orientation-card islamic">
+      <h3>☽ Islamic Lens</h3>
+      <p><strong>Al-Mahdi</strong> is the awaited guided ruler in many Sunni and Shia end-times traditions. He is expected to restore justice, lead the Muslim community, and rule before the final signs unfold. He is not named directly in the Quran; the detailed material comes mainly through hadith and later eschatological writings.</p>
+      <p><strong>Al-Masih ad-Dajjal</strong>, usually shortened to Dajjal, is Islam's great end-time deceiver. He performs signs, misleads people, and is defeated when <strong>Isa ibn Maryam</strong> descends.</p>
+      <p><strong>Isa</strong>, Jesus son of Mary in Islamic belief, returns near the end, aligns with the Muslim community, kills Dajjal, and confirms the final triumph of Islam before later events such as Ya'juj wa Ma'juj.</p>
+    </div>
+  </div>
+
+  <div class="role-map">
+    <div class="role-map-header">How the Comparison Works</div>
+    <div class="role-row">
+      <div class="role-cell label">Political ruler</div>
+      <div class="role-cell biblical">Biblical Antichrist / Beast</div>
+      <div class="role-cell islamic">Al-Mahdi</div>
+      <div class="role-cell note">The central thesis asks whether the Islamic hero and Biblical villain occupy the same structural role when viewed through opposite theological lenses.</div>
+    </div>
+    <div class="role-row">
+      <div class="role-cell label">Deceiver figure</div>
+      <div class="role-cell biblical">Antichrist, False Prophet, or false messiahs depending on passage</div>
+      <div class="role-cell islamic">Dajjal</div>
+      <div class="role-cell note">Dajjal clearly shares some Antichrist traits, especially deception and signs. The debate is whether he maps better to the Antichrist, the False Prophet, or a rival end-time interpretation.</div>
+    </div>
+    <div class="rol

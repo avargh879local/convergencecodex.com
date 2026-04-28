@@ -194,6 +194,109 @@
     margin: 80px 0;
   }
 
+  /* ── BEGINNER ORIENTATION ──────────────── */
+  .orientation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-top: 40px;
+  }
+
+  .orientation-card {
+    border: 1px solid var(--border);
+    padding: 30px;
+    background: rgba(32,34,46,0.45);
+    position: relative;
+  }
+
+  .orientation-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+  }
+
+  .orientation-card.biblical::before { background: var(--biblical-blue-light); }
+  .orientation-card.islamic::before { background: var(--islamic-green-light); }
+
+  .orientation-card h3 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+  }
+
+  .orientation-card.biblical h3 { color: var(--biblical-blue-light); }
+  .orientation-card.islamic h3 { color: var(--islamic-green-light); }
+
+  .orientation-card p {
+    color: var(--text-dim);
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 14px;
+  }
+
+  .orientation-card strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .role-map {
+    margin-top: 36px;
+    border: 1px solid var(--border);
+    background: rgba(13,13,15,0.35);
+    overflow: hidden;
+  }
+
+  .role-map-header {
+    padding: 16px 20px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+
+  .role-row {
+    display: grid;
+    grid-template-columns: minmax(150px, 0.8fr) minmax(220px, 1.2fr) minmax(220px, 1.2fr) minmax(220px, 1.4fr);
+    border-bottom: 1px solid rgba(42,45,62,0.55);
+  }
+
+  .role-row:last-child { border-bottom: none; }
+
+  .role-cell {
+    padding: 18px 20px;
+    font-size: 15px;
+    line-height: 1.65;
+    border-right: 1px solid rgba(42,45,62,0.55);
+  }
+
+  .role-cell:last-child { border-right: none; }
+
+  .role-cell.label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--gold-light);
+    text-transform: uppercase;
+  }
+
+  .role-cell.biblical { color: var(--biblical-blue-light); background: rgba(30,58,107,0.05); }
+  .role-cell.islamic { color: var(--islamic-green-light); background: rgba(45,110,78,0.05); }
+  .role-cell.note { color: var(--text-dim); }
+
+  @media (max-width: 900px) {
+    .orientation-grid { grid-template-columns: 1fr; }
+    .role-row { grid-template-columns: 1fr; }
+    .role-cell { border-right: none; border-bottom: 1px solid rgba(42,45,62,0.35); }
+    .role-cell:last-child { border-bottom: none; }
+  }
+
   /* ── VERSE TABLES ──────────────────────── */
   .verse-grid {
     display: grid;
@@ -691,6 +794,7 @@
 <!-- STICKY NAV -->
 <nav class="sticky-nav" id="stickyNav">
   <span class="brand">THE CONVERGENCE CODEX</span>
+  <a href="#beginner-map">Beginner Map</a>
   <a href="#verses">Scriptures</a>
   <a href="#comparison">Comparison</a>
   <a href="#timeline">Timeline</a>
@@ -712,6 +816,7 @@
   </div>
 
   <nav class="nav-pills">
+    <a href="#beginner-map" class="nav-pill">🧭 Beginner Map</a>
     <a href="#verses" class="nav-pill">📜 All Scriptures</a>
     <a href="#comparison" class="nav-pill">⚖️ Trait Comparison</a>
     <a href="#timeline" class="nav-pill">📅 Prophetic Timeline</a>
@@ -720,6 +825,65 @@
     <a href="#conclusion" class="nav-pill">⚡ Conclusion</a>
   </nav>
 </div>
+
+<!-- ── START HERE: BEGINNER MAP ─────────────────── -->
+<section id="beginner-map">
+  <div class="section-header">
+    <span class="section-tag">Start Here — What This Page Is Doing</span>
+    <h2>A Beginner Map of the End-Time Cast</h2>
+    <p>This page compares Islamic and Biblical end-times expectations side by side. It does not begin by assuming the figures are the same; it asks whether opposite traditions may be describing overlapping actors, events, or symbolic patterns.</p>
+  </div>
+
+  <div class="orientation-grid">
+    <div class="orientation-card biblical">
+      <h3>✝ Biblical Lens</h3>
+      <p><strong>The Antichrist</strong>, often linked with the Beast of Revelation and the "man of lawlessness" in 2 Thessalonians, is portrayed as an end-time ruler who opposes God, deceives nations, persecutes the saints, and receives political authority.</p>
+      <p><strong>The False Prophet</strong> is a second deceptive figure in Revelation 13. His role is religious and propagandistic: he performs signs, points people toward the Beast, and helps enforce allegiance to the Beast system.</p>
+      <p><strong>The returning Christ</strong> defeats the Beast and False Prophet in Revelation 19. In many Christian readings, Elijah or the Two Witnesses also appear in the final drama as prophetic witnesses before judgment.</p>
+    </div>
+
+    <div class="orientation-card islamic">
+      <h3>☽ Islamic Lens</h3>
+      <p><strong>Al-Mahdi</strong> is the awaited guided ruler in many Sunni and Shia end-times traditions. He is expected to restore justice, lead the Muslim community, and rule before the final signs unfold. He is not named directly in the Quran; the detailed material comes mainly through hadith and later eschatological writings.</p>
+      <p><strong>Al-Masih ad-Dajjal</strong>, usually shortened to Dajjal, is Islam's great end-time deceiver. He performs signs, misleads people, and is defeated when <strong>Isa ibn Maryam</strong> descends.</p>
+      <p><strong>Isa</strong>, Jesus son of Mary in Islamic belief, returns near the end, aligns with the Muslim community, kills Dajjal, and confirms the final triumph of Islam before later events such as Ya'juj wa Ma'juj.</p>
+    </div>
+  </div>
+
+  <div class="role-map">
+    <div class="role-map-header">How the Comparison Works</div>
+    <div class="role-row">
+      <div class="role-cell label">Political ruler</div>
+      <div class="role-cell biblical">Biblical Antichrist / Beast</div>
+      <div class="role-cell islamic">Al-Mahdi</div>
+      <div class="role-cell note">The central thesis asks whether the Islamic hero and Biblical villain occupy the same structural role when viewed through opposite theological lenses.</div>
+    </div>
+    <div class="role-row">
+      <div class="role-cell label">Deceiver figure</div>
+      <div class="role-cell biblical">Antichrist, False Prophet, or false messiahs depending on passage</div>
+      <div class="role-cell islamic">Dajjal</div>
+      <div class="role-cell note">Dajjal clearly shares some Antichrist traits, especially deception and signs. The debate is whether he maps better to the Antichrist, the False Prophet, or a rival end-time interpretation.</div>
+    </div>
+    <div class="role-row">
+      <div class="role-cell label">Endorsing figure</div>
+      <div class="role-cell biblical">False Prophet endorses the Beast</div>
+      <div class="role-cell islamic">Isa descends and validates the Muslim community led by the Mahdi</div>
+      <div class="role-cell note">This is one of the sharpest comparison points: both narratives include a powerful religious figure whose actions validate the final ruling order, but the theological meanings are completely opposite.</div>
+    </div>
+    <div class="role-row">
+      <div class="role-cell label">Final conflict</div>
+      <div class="role-cell biblical">Christ defeats the Beast and False Prophet</div>
+      <div class="role-cell islamic">Isa kills Dajjal; Mahdi/Islamic order is vindicated</div>
+      <div class="role-cell note">The study tracks whether these are separate prophecies, borrowed apocalyptic motifs, or mirror-image descriptions of the same future conflict.</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    Read this site as a research map, not a verdict first. The goal is to gather the strongest Biblical, Islamic, and secular arguments, compare them honestly, and keep updating the conclusions as better sources are added.
+  </div>
+</section>
+
+<div class="divider"></div>
 
 <!-- ── SECTION 1: ALL SCRIPTURES ─────────────────── -->
 <section id="verses">
