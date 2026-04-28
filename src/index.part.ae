@@ -135,126 +135,14 @@
 
   <div class="divider"></div>
 
-  <!-- Temporarily hidden; keep this section in source control for later restoration. -->
-  <section id="hidden-treasures" hidden aria-hidden="true">
-    <div class="section-header">
-      <span class="section-tag">§ IX — Deep Excavation</span>
-      <h2>Hidden Treasures — Connections Nobody Talks About</h2>
-      <p>Beyond the main debate. Eight genuine textual parallels between Islam and the Bible that are either overlooked, underexplored, or genuinely shocking. Strength-rated honestly — no hallucinations.</p>
-    </div>
 
-    <!-- CONNECTION 1: GOG AND MAGOG -->
-    <div style="border:1px solid var(--border);margin-bottom:40px;overflow:hidden">
-      <div style="padding:20px 28px;background:rgba(201,168,76,0.08);border-bottom:2px solid var(--gold);display:flex;justify-content:space-between;align-items:center">
-        <div>
-          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--gold-dim)">CONNECTION 01</span>
-          <h3 style="font-family:'Cinzel Decorative',serif;color:var(--gold);font-size:18px;margin-top:4px">Gog & Magog / Ya'juj wa Ma'juj — Same Figure, Same Name, Both Traditions</h3>
-        </div>
-        <span class="match-badge match-strong" style="font-size:13px;padding:6px 14px">STRENGTH: IRONCLAD</span>
-      </div>
-      <div style="padding:24px 28px">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:20px">
-          <div>
-            <p style="color:var(--biblical-blue-light);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;margin-bottom:10px">✝ BIBLE</p>
-            <p><strong>Ezekiel 38-39:</strong> "Gog, of the land of Magog" leads a massive coalition from the north to invade Israel. Destroyed by God directly — fire, brimstone, earthquake, plague. Birds and animals eat the bodies for 7 months (Ezekiel 39:12-14).</p>
-            <p style="margin-top:10px"><strong>Revelation 20:7-8:</strong> After the millennium, Satan deceives "Gog and Magog" — nations from the four corners of the earth — to surround Jerusalem. Destroyed by fire from heaven.</p>
-          </div>
-          <div>
-            <p style="color:var(--islamic-green-light);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;margin-bottom:10px">☽ QURAN + HADITH</p>
-            <p><strong>Quran 18:94-97, 21:96:</strong> Ya'juj wa Ma'juj are trapped behind an iron-and-copper wall built by Dhul-Qarnayn. "Until when Gog and Magog are let loose and they swarm down from every hill" (21:96).</p>
-            <p style="margin-top:10px"><strong>Sahih Muslim 2937:</strong> After Isa kills Dajjal, Ya'juj wa Ma'juj emerge. They drink the Sea of Galilee dry. They shoot arrows into the sky claiming to kill the inhabitants of heaven. Allah destroys them with a worm in their necks. Birds carry their bodies away.</p>
-          </div>
-        </div>
-        <div class="callout" style="margin:0">
-          <strong>The Buried Bombshell:</strong> Both traditions share the same NAMES (Gog/Magog = Ya'juj/Ma'juj — linguistically identical), the same timing (after the Messiah defeats the primary enemy), the same destruction method (divine intervention, not human military), and the same gruesome aftermath (birds eating bodies — Ezekiel 39:17, Islamic hadith). This is not a parallel — this is the <em>same event</em> described in both scriptures with the same proper nouns. The only difference is sequence placement.
-        </div>
-      </div>
-    </div>
+<footer>
+  <p>The Convergence Codex — A Living Research Document</p>
+  <p style="margin-top:8px; font-size:15px; color:var(--text-dim)">This study is updated as research progresses. All conclusions are provisional. Truth-seeking demands intellectual humility.</p>
+  <div class="footer-note">BUILT BY CLAUDE · RESEARCH ONGOING · GROK DEBATE PENDING · V1.0</div>
+</footer>
 
-    <!-- CONNECTION 2: DOME OF THE ROCK -->
-    <div style="border:1px solid var(--border);margin-bottom:40px;overflow:hidden">
-      <div style="padding:20px 28px;background:rgba(201,76,76,0.08);border-bottom:2px solid var(--danger);display:flex;justify-content:space-between;align-items:center">
-        <div>
-          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--danger)">CONNECTION 02</span>
-          <h3 style="font-family:'Cinzel Decorative',serif;color:var(--danger);font-size:18px;margin-top:4px">The Dome of the Rock — An Abomination Already Standing?</h3>
-        </div>
-        <span class="match-badge match-partial" style="font-size:13px;padding:6px 14px">STRENGTH: STRONG — HISTORICALLY GROUNDED</span>
-      </div>
-      <div style="padding:24px 28px">
-        <p><strong>The text:</strong> Matthew 24:15 — Jesus says: "When you see the abomination of desolation, spoken of by the prophet Daniel, standing in the holy place — let the reader understand — then let those in Judea flee." The Greek word for "standing" (histemi) implies a permanent, erected structure — not just a person.</p>
-        <p style="margin-top:12px"><strong>What happened in 691 CE:</strong> Caliph Abd al-Malik built the Dome of the Rock directly on the Temple Mount — the "holy place" — on the exact site of the Jewish Temple. The Dome's interior inscription, still visible today in Arabic around the octagonal arcade, reads: <em>"Praise be to God who begets no son and has no partner in his dominion... Far be it from His glory that He should have a son."</em> — A direct, deliberate denial of the central claim of Christianity, inscribed permanently in the holiest location in Christendom.</p>
-        <p style="margin-top:12px"><strong>The historical witness:</strong> Sophronius, the Christian Patriarch of Jerusalem in 637 CE, when he saw Omar's intentions for the Temple Mount, reportedly exclaimed: "Verily, this is the Abomination of Desolation as spoken of by Daniel the prophet." This is recorded in early church sources.</p>
-        <div class="warning-callout" style="margin-top:16px">
-          <strong>Honest caveat:</strong> Most scholars argue the Abomination of Desolation is a future event involving a rebuilt Temple and the Antichrist setting up an idol. The Dome of the Rock does not "cause desolation" in the technical prophetic sense. But the coincidence of an Islamic structure with explicit anti-Christ-divinity inscriptions permanently occupying the exact site of the Jewish Temple — where the Antichrist is prophesied to set himself up — is theologically striking and cannot be entirely dismissed.
-        </div>
-      </div>
-    </div>
+<script src="/assets/site.js" defer></script>
 
-    <!-- CONNECTION 3: CHANGING TIMES AND LAWS -->
-    <div style="border:1px solid var(--border);margin-bottom:40px;overflow:hidden">
-      <div style="padding:20px 28px;background:rgba(74,122,199,0.08);border-bottom:2px solid var(--biblical-blue-light);display:flex;justify-content:space-between;align-items:center">
-        <div>
-          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--biblical-blue-light)">CONNECTION 03</span>
-          <h3 style="font-family:'Cinzel Decorative',serif;color:var(--biblical-blue-light);font-size:18px;margin-top:4px">Daniel 7:25 — "He Will Change Times and Laws" — Already Done?</h3>
-        </div>
-        <span class="match-badge match-strong" style="font-size:13px;padding:6px 14px">STRENGTH: STRONG</span>
-      </div>
-      <div style="padding:24px 28px">
-        <p><strong>Daniel 7:25</strong> describes the Antichrist: "He will speak against the Most High and oppress his holy people and try to <em>change the set times and the laws</em>. The holy people will be delivered into his hands for a time, times and half a time."</p>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px">
-          <div style="padding:16px;border:1px solid var(--border);background:rgba(74,122,199,0.05)">
-            <p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--biblical-blue-light);margin-bottom:8px">CHANGING THE TIMES</p>
-            <p>Islam introduced the <strong>Hijri (lunar) calendar</strong>, replacing the Julian/Gregorian solar calendar across all conquered territories. Every date, legal document, contract, and religious observance shifted to a new calendar system beginning from Muhammad's migration (622 CE). Entire civilizations changed how they measured time.</p>
-          </div>
-          <div style="padding:16px;border:1px solid var(--border);background:rgba(74,122,199,0.05)">
-            <p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--biblical-blue-light);margin-bottom:8px">CHANGING THE LAWS</p>
-            <p><strong>Sharia law</strong> replaced Roman law, Byzantine Christian law, Mosaic law, and tribal customary law across the entire Middle East, North Africa, Persia, and Spain. Every legal system in the conquered world was abolished and replaced with Islamic jurisprudence. This is the most comprehensive legal transformation in human history.</p>
-          </div>
-        </div>
-        <p style="margin-top:16px;color:var(--text-dim);font-style:italic">Whether this is a past fulfillment, a future fulfillment through the Mahdi's global Sharia, or a general characteristic — the specificity of "times and laws" maps precisely onto Islam's historical and eschatological program. No other world system more literally "changed the set times and the laws" across entire civilizations.</p>
-      </div>
-    </div>
-
-    <!-- CONNECTION 4: MARK OF THE BEAST / FOREHEAD -->
-    <div style="border:1px solid var(--border);margin-bottom:40px;overflow:hidden">
-      <div style="padding:20px 28px;background:rgba(201,168,76,0.08);border-bottom:2px solid var(--gold);display:flex;justify-content:space-between;align-items:center">
-        <div>
-          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--gold-dim)">CONNECTION 04</span>
-          <h3 style="font-family:'Cinzel Decorative',serif;color:var(--gold);font-size:18px;margin-top:4px">Two Competing Marks on Foreheads — Ezekiel, Revelation & the Zebibah</h3>
-        </div>
-        <span class="match-badge match-partial" style="font-size:13px;padding:6px 14px">STRENGTH: PROVOCATIVE — SPECULATIVE</span>
-      </div>
-      <div style="padding:24px 28px">
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:16px">
-          <div style="padding:14px;border:1px solid var(--border)">
-            <p style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--gold);margin-bottom:8px">EZEKIEL 9:4</p>
-            <p style="font-size:14px">God tells an angel: "Go throughout the city of Jerusalem and put a <em>mark on the foreheads</em> of those who grieve over the detestable things done in it." — A protective mark on the righteous foreheads BEFORE judgment.</p>
-          </div>
-          <div style="padding:14px;border:1px solid var(--border)">
-            <p style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--biblical-blue-light);margin-bottom:8px">REVELATION 7:3, 13:16</p>
-            <p style="font-size:14px">God's servants are <em>sealed on their foreheads</em> (Rev 7:3). The Beast demands a <em>mark on the right hand or forehead</em> (Rev 13:16). Two competing marks — God's seal vs Beast's mark — both on the forehead.</p>
-          </div>
-          <div style="padding:14px;border:1px solid var(--border)">
-            <p style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--islamic-green-light);margin-bottom:8px">THE ZEBIBAH</p>
-            <p style="font-size:14px">The <em>zebibah</em> (prayer callus) — a dark mark on the forehead developed from years of Islamic sujood (prostration in prayer) — is considered a sign of piety in Islam. Quran 48:29 describes believers with "their marks on their faces from the effects of prostration."</p>
-          </div>
-        </div>
-        <p style="color:var(--text-dim);font-style:italic;font-size:14px">The question: Is the zebibah — a literal mark on the forehead produced by Islamic worship — the "mark of the beast" that Revelation describes? Or is it God's seal, marking the faithful? The same physical location. Two completely opposite theological interpretations. The text does not specify whether the mark is visible or invisible — only its location.</p>
-      </div>
-    </div>
-
-    <!-- CONNECTION 5: THE FATAL WOUND HEALED -->
-    <div style="border:1px solid var(--border);margin-bottom:40px;overflow:hidden">
-      <div style="padding:20px 28px;background:rgba(240,140,75,0.08);border-bottom:2px solid #f08c4b;display:flex;justify-content:space-between;align-items:center">
-        <div>
-          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:#f08c4b">CONNECTION 05</span>
-          <h3 style="font-family:'Cinzel Decorative',serif;color:#f08c4b;font-size:18px;margin-top:4px">The Fatal Wound That Was Healed — The Ottoman Caliphate</h3>
-        </div>
-        <span class="match-badge match-partial" style="font-size:13px;padding:6px 14px">STRENGTH: MODERATE — MODERN ARGUMENT</span>
-      </div>
-      <div style="padding:24px 28px">
-        <p><strong>Revelation 13:3:</strong> "One of the heads of the beast seemed to have had a fatal wound, but the fatal wound had been healed. The whole world was filled with wonder and followed the beast."</p>
-        <p style="margin-top:12px"><strong>Richardson's argument:</strong> The Ottoman Caliphate — the last Islamic empire holding the title of Caliph, ruling from Jerusalem, commanding the Muslim world — was formally abolished on <strong>March 3, 1924</strong> by Mustafa Kemal Atatürk. This was described by Muslims worldwide as a catastrophic blow to Islam — a "fatal wound" to the Islamic political-religious body. The Caliphate had existed in some form for 1,300 years. Its abolition was sudden and traumatic.</p>
-        <p style="margin-top:12px"><strong>The healing:</strong> A revived Caliphate — which both ISIS attempted (2014) and which remains the explicit goal of multiple Islamist movements — would be the "fatal wound healed." If a Mahdi figure arises and re-establishes the Caliphate globally, Revelation 13:3 would describe Muslims worldwide following him in wonder at the restoration of what seemed permanently destroyed.</p>
-        <div class="warning-callout" style="margin-top:16px">
-          <strong>Honest caveat:</strong> This is a modern interpretive argument, not a direct textual parallel. The "heads" in Revelation 13 are debated — they may refer to Roman emperors, world empires, or something else entirely. 
+</body>
+</html>

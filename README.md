@@ -35,6 +35,12 @@ The repo may contain helper scripts and archive files, but Cloudflare should not
 
 Never commit `.env` or `env.txt`; those contain local API keys.
 
+Before making the website public, follow:
+
+```text
+SECURITY_LAUNCH_CHECKLIST.md
+```
+
 ## Cloudflare Pages Settings
 
 Use these settings:
