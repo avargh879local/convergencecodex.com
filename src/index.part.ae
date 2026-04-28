@@ -1,9 +1,4 @@
-n>
-        </div>
-      </div>
-    </div>
-
-    <div class="conclusion-box" style="margin-top:40px">
+on-box" style="margin-top:40px">
       <h3>Verdict on the Elijah-Dajjal Hypothesis</h3>
       <p>The strongest connection is <strong>indirect</strong>: Elijah's signature miracle (fire from heaven) appears in the False Prophet of Revelation 13 — suggesting the False Prophet is a counterfeit Elijah, not that the Dajjal IS Elijah literally.</p>
       <p>The fatal problem remains: Elijah is righteous and never claims divinity. The Dajjal explicitly claims to be God — the opposite moral character. Under the inversion thesis this could mean: what Islam calls the greatest evil (claiming to be God), the Biblical framework sees as the greatest good (God actually being present). But this requires a theological leap that goes beyond the textual evidence.</p>
@@ -14,7 +9,8 @@ n>
 
   <div class="divider"></div>
 
-  <section id="hidden-treasures">
+  <!-- Temporarily hidden; keep this section in source control for later restoration. -->
+  <section id="hidden-treasures" hidden aria-hidden="true">
     <div class="section-header">
       <span class="section-tag">§ IX — Deep Excavation</span>
       <h2>Hidden Treasures — Connections Nobody Talks About</h2>
@@ -235,4 +231,4 @@ n>
           <td>Ezekiel 38-39, Rev 20:7-8</td>
           <td>Quran 18:94-97, 21:96; Sahih Muslim 2937</td>
           <td><span class="match-badge match-strong">IRONCLAD</span></td>
-          <td>Same proper names, same timing, same destruction — thi
+          <td>Same pr
