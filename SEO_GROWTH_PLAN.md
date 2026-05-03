@@ -10,6 +10,7 @@ Last updated: 2026-05-03
 - A fuller `sitemap.xml`.
 - About, Methodology, Privacy, Contact, and Sources pages for trust.
 - Internal links from the homepage to every topic page.
+- Advanced structured data, visible FAQ blocks, RSS feed, social preview card, and `llms.txt`.
 
 ## First launch tasks after deployment
 
@@ -21,6 +22,7 @@ Last updated: 2026-05-03
    - Use the Domain property if possible.
    - Submit `https://www.convergencecodex.com/sitemap.xml`.
    - Request indexing for the homepage and `/mahdi-vs-antichrist/`.
+   - Inspect `/mahdi-vs-antichrist/`, `/antichrist-in-the-bible/`, and `/who-is-dajjal/` after deployment.
 
 3. Add the site to Bing Webmaster Tools.
    - Import from Google Search Console if available.

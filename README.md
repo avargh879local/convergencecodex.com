@@ -54,6 +54,12 @@ Root directory: /
 
 After GitHub is connected, every push to `main` deploys the website automatically.
 
+The build script regenerates the homepage from `src/index.part.*` and then applies advanced SEO metadata with:
+
+```text
+tools/apply-advanced-seo.mjs
+```
+
 ## SEO
 
 The first SEO sprint added focused public pages, trust pages, metadata, and a sitemap.

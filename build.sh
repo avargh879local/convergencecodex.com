@@ -3,3 +3,4 @@ set -euo pipefail
 
 mkdir -p public
 cat src/index.part.* > public/index.html
+node tools/apply-advanced-seo.mjs

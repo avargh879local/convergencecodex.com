@@ -252,6 +252,36 @@ tr:last-child td {
   margin: 10px 0;
 }
 
+.faq-list {
+  margin-top: 44px;
+}
+
+.faq-list details {
+  margin: 12px 0;
+  border: 1px solid var(--border);
+  background: rgba(13, 13, 15, 0.38);
+}
+
+.faq-list summary {
+  cursor: pointer;
+  padding: 18px 20px;
+  color: var(--gold-light);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.faq-list details[open] summary {
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-list details p {
+  margin: 0;
+  padding: 18px 20px 22px;
+  color: var(--text-dim);
+}
+
 .cta-strip {
   margin-top: 54px;
   padding: 28px;

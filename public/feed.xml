@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Convergence Codex</title>
+    <link>https://www.convergencecodex.com/</link>
+    <description>Comparative eschatology research on Al-Mahdi, Dajjal, the Biblical Antichrist, the False Prophet, and related end-times texts.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2026 19:30:00 -0500</lastBuildDate>
+    <atom:link href="https://www.convergencecodex.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mahdi vs Antichrist: Comparative Research Map</title>
+      <link>https://www.convergencecodex.com/mahdi-vs-antichrist/</link>
+      <guid>https://www.convergencecodex.com/mahdi-vs-antichrist/</guid>
+      <pubDate>Sun, 03 May 2026 19:30:00 -0500</pubDate>
+      <description>A focused page comparing Al-Mahdi and the Biblical Antichrist across Biblical, Islamic, and secular lenses.</description>
+    </item>
+    <item>
+      <title>Antichrist in the Bible</title>
+      <link>https://www.convergencecodex.com/antichrist-in-the-bible/</link>
+      <guid>https://www.convergencecodex.com/antichrist-in-the-bible/</guid>
+      <pubDate>Sun, 03 May 2026 19:30:00 -0500</pubDate>
+      <description>A guide to the Biblical texts behind Antichrist, Beast, and man of lawlessness language.</description>
+    </item>
+    <item>
+      <title>Gog and Magog in the Bible and Quran</title>
+      <link>https://www.convergencecodex.com/gog-and-magog-bible-quran/</link>
+      <guid>https://www.convergencecodex.com/gog-and-magog-bible-quran/</guid>
+      <pubDate>Sun, 03 May 2026 19:30:00 -0500</pubDate>
+      <description>The shared-name parallel across Ezekiel, Revelation, Quran, and Islamic hadith.</description>
+    </item>
+  </channel>
+</rss>
