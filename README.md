@@ -53,3 +53,13 @@ Root directory: /
 ```
 
 After GitHub is connected, every push to `main` deploys the website automatically.
+
+## SEO
+
+The first SEO sprint added focused public pages, trust pages, metadata, and a sitemap.
+
+Next operational checklist:
+
+```text
+SEO_GROWTH_PLAN.md
+```

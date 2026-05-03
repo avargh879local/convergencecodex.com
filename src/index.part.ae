@@ -139,6 +139,13 @@
 <footer>
   <p>The Convergence Codex — A Living Research Document</p>
   <p style="margin-top:8px; font-size:15px; color:var(--text-dim)">This study is updated as research progresses. All conclusions are provisional. Truth-seeking demands intellectual humility.</p>
+  <p style="margin-top:18px; font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:1px">
+    <a href="/about/" style="color:var(--gold-light); margin:0 8px">About</a>
+    <a href="/methodology/" style="color:var(--gold-light); margin:0 8px">Methodology</a>
+    <a href="/sources/" style="color:var(--gold-light); margin:0 8px">Sources</a>
+    <a href="/privacy/" style="color:var(--gold-light); margin:0 8px">Privacy</a>
+    <a href="/contact/" style="color:var(--gold-light); margin:0 8px">Contact</a>
+  </p>
   <div class="footer-note">BUILT BY CLAUDE · RESEARCH ONGOING · GROK DEBATE PENDING · V1.0</div>
 </footer>
 
