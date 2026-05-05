@@ -136,7 +136,7 @@
   <div class="divider"></div>
 
 <div id="comments-mount"></div>
-<script src="/assets/comments.js" defer></script>
+<script src="/assets/comments.js?v=2" defer></script>
 
   <div class="divider"></div>
 
