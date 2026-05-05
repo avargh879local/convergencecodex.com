@@ -1,0 +1,7 @@
+name = "convergencecodex"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "convergencecodex-comments"
+database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
