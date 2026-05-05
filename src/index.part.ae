@@ -151,5 +151,8 @@
 
 <script src="/assets/site.js" defer></script>
 
+<div id="comments-mount"></div>
+<script src="/assets/comments.js" defer></script>
+
 </body>
 </html>
