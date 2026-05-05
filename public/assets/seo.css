@@ -300,6 +300,25 @@ footer {
   text-align: center;
 }
 
+.comments {
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.comments h2 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 28px;
+}
+
+#disqus_thread a {
+  color: var(--gold-light);
+}
+
 @media (max-width: 760px) {
   body {
     font-size: 17px;
