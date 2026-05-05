@@ -135,6 +135,11 @@
 
   <div class="divider"></div>
 
+<div id="comments-mount"></div>
+<script src="/assets/comments.js" defer></script>
+
+  <div class="divider"></div>
+
 
 <footer>
   <p>The Convergence Codex — A Living Research Document</p>
@@ -150,9 +155,6 @@
 </footer>
 
 <script src="/assets/site.js" defer></script>
-
-<div id="comments-mount"></div>
-<script src="/assets/comments.js" defer></script>
 
 </body>
 </html>
